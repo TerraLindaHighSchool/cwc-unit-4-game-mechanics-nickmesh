@@ -737,6 +737,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 4088369510647489948, guid: 0d0d9ec8d11c6854ba6c2427099cc2bb,
     type: 3}
+  powerupPrefab: {fileID: 2369308428925885330, guid: 85e41d4714fa9364ab62069a591b8732,
+    type: 3}
+  enemyCount: 0
+  waveNumber: 1
 --- !u!4 &1651627090
 Transform:
   m_ObjectHideFlags: 0
@@ -818,21 +822,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2371583751840906972, guid: 85e41d4714fa9364ab62069a591b8732,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2371583751840906972, guid: 85e41d4714fa9364ab62069a591b8732,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 2371583751840906972, guid: 85e41d4714fa9364ab62069a591b8732,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 85e41d4714fa9364ab62069a591b8732, type: 3}
 --- !u!1001 &7305732181041295649
@@ -904,22 +893,3 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 363a8f737719f4d2eafb35f885f3706f, type: 3}
---- !u!1 &8577519798478514625 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2369308428925885330, guid: 85e41d4714fa9364ab62069a591b8732,
-    type: 3}
-  m_PrefabInstance: {fileID: 6334314770636108371}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &8577519798478514626
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8577519798478514625}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.5122995, y: 0.48738986, z: 0.109224334}
-  m_Center: {x: 0, y: 0.000000007450581, z: 0.0000000018626451}
